@@ -3,15 +3,15 @@ TODO:
 [x] Read the instructions
 
 **Base Mode**
-[ ] Setup a HTML file
-[ ] Source in jquery and scripts.js
-[ ] Input form that collects
-  [ ] First Name
-  [ ] Last Name
-  [ ] ID
-  [ ] Title
-  [ ] Salary
-[ ] Submit button
+[x] Setup a HTML file
+[x] Source in jquery and scripts.js
+[x] Input form that collects
+  [x] First Name
+  [x] Last Name
+  [x] ID
+  [x] Title
+  [x] Salary
+[x] Submit button
   [ ] "Store the information" (?)
   [ ] Append info to the DOM
   [ ] Clear input fields
@@ -23,6 +23,9 @@ TODO:
 
 [ ] Check your work (QA)
 [ ] SUBMIT IT
+
+**For Later**
+[ ] Make it look nice
 
 **Stretch Mode**
 ...worry about that later...
