@@ -39,4 +39,7 @@ function addEmployee() {
       <td><button>Delete</button></td>
     </tr>
   `);
+
+  // Clear input fields
+  $('input').val('');
 }

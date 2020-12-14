@@ -15,7 +15,7 @@ TODO:
   [x] Grab the info from the DOM, make and obj
   [ ] "Store the information" (?)
   [x] "Static" HTML for employee table
-  [ ] Append info to the DOM
+  [x] Append info to the DOM
   [ ] Clear input fields
 [ ] Append monthly costs to DOM
 [ ] If >$20k --> bg color = red
