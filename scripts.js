@@ -67,5 +67,9 @@ function addEmployee() {
 }
 
 function deleteEmployee() {
-  console.log('deleting an employee');
+  console.log('deleting an employee', $(this));
+
+  // Remove the employee <tr> element
+  let theButton = $(this);
+  theButton.parents('tr').remove();
 }
