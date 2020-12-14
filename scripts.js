@@ -27,4 +27,16 @@ function addEmployee() {
     salary: salary
   };
   console.log('employee to add is', employee);
+
+  // Append the employee to the DOM
+  $('#employeeTable').append(`
+    <tr>
+      <td>${employee.firstName}</td>
+      <td>${employee.lastName}</td>
+      <td>${employee.id}</td>
+      <td>${employee.title}</td>
+      <td>$${employee.salary}</td>
+      <td><button>Delete</button></td>
+    </tr>
+  `);
 }

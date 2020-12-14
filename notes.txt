@@ -14,7 +14,7 @@ TODO:
 [x] Submit button
   [x] Grab the info from the DOM, make and obj
   [ ] "Store the information" (?)
-  [ ] "Static" HTML for employee table
+  [x] "Static" HTML for employee table
   [ ] Append info to the DOM
   [ ] Clear input fields
 [ ] Append monthly costs to DOM
@@ -28,6 +28,7 @@ TODO:
 
 **For Later**
 [ ] Make it look nice
+[ ] Add commas to numbers
 
 **Stretch Mode**
 ...worry about that later...
