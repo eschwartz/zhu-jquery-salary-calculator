@@ -13,7 +13,7 @@ TODO:
   [x] Salary
 [x] Submit button
   [x] Grab the info from the DOM, make and obj
-  [ ] "Store the information" (?)
+  [x] "Store the information" (?)
   [x] "Static" HTML for employee table
   [x] Append info to the DOM
   [x] Clear input fields
@@ -25,7 +25,7 @@ TODO:
   [x] Remove employee from the DOM
   **NOTE** does not need to update monthly costs
 
-[ ] Check your work (QA)
+[x] Check your work (QA)
 [ ] SUBMIT IT
 
 **For Later**
