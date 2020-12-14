@@ -1,0 +1,29 @@
+TODO:
+
+[x] Read the instructions
+
+**Base Mode**
+[ ] Input form that collects
+  [ ] First Name
+  [ ] Last Name
+  [ ] ID
+  [ ] Title
+  [ ] Salary
+[ ] Submit button
+  [ ] "Store the information" (?)
+  [ ] Append info to the DOM
+  [ ] Clear input fields
+[ ] Append monthly costs to DOM
+[ ] If >$20k --> bg color = red
+[ ] Delete button
+  [ ] Remove employee from the DOM
+  **NOTE** does not need to update monthly costs
+
+[ ] Check your work (QA)
+[ ] SUBMIT IT
+
+**Stretch Mode**
+...worry about that later...
+
+Notes:
+- Commit regularly!
