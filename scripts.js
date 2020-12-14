@@ -7,6 +7,9 @@ function onReady() {
   $('#newEmployeeBtn').on('click', addEmployee);
 }
 
+// Track total monthly costs for all employees
+let totalMonthlyCost = 0;
+
 function addEmployee() {
   console.log('addEmployee was clicked');
 
@@ -24,7 +27,7 @@ function addEmployee() {
     lastName: lastName,
     id: id,
     title: title,
-    salary: salary
+    salary: Number(salary)
   };
   console.log('employee to add is', employee);
 
@@ -42,4 +45,11 @@ function addEmployee() {
 
   // Clear input fields
   $('#employeeForm input').val('');
+
+  // Calculate monthly costs
+  // How do we do this?
+  // - For this employee, monthly cost = salary / 12
+  // - add up monthly costs for all employees
+  totalMonthlyCost += employee.salary / 12;
+  $('#totalMonthlyCost').text(totalMonthlyCost);
 }

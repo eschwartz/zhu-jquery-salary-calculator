@@ -17,7 +17,8 @@ TODO:
   [x] "Static" HTML for employee table
   [x] Append info to the DOM
   [x] Clear input fields
-[ ] Append monthly costs to DOM
+[x] Append monthly costs to DOM
+  [x] Figure out monthly costs
 [ ] If >$20k --> bg color = red
 [ ] Delete button
   [ ] Remove employee from the DOM
@@ -29,6 +30,8 @@ TODO:
 **For Later**
 [ ] Make it look nice
 [ ] Add commas to numbers
+[ ] Clean up code, split up function
+    "Refactoring"
 
 **Stretch Mode**
 ...worry about that later...
