@@ -19,7 +19,7 @@ TODO:
   [x] Clear input fields
 [x] Append monthly costs to DOM
   [x] Figure out monthly costs
-[ ] If >$20k --> bg color = red
+[x] If >$20k --> bg color = red
   [x] Static CSS
 [ ] Delete button
   [ ] Remove employee from the DOM

@@ -4,7 +4,11 @@ function onReady() {
   console.log('So ready!');
 
   // Handle Submit button click
-  $('#newEmployeeBtn').on('click', addEmployee);
+  $(document).on('click', '#newEmployeeBtn', addEmployee);
+
+  // Handle delete button click
+  $(document).on('click', '.deleteBtn', deleteEmployee);
+  console.log('delete buttons', $('#employeeTable'));
 }
 
 // Track total monthly costs for all employees
@@ -39,7 +43,7 @@ function addEmployee() {
       <td>${employee.id}</td>
       <td>${employee.title}</td>
       <td>$${employee.salary}</td>
-      <td><button>Delete</button></td>
+      <td><button class="deleteBtn">Delete</button></td>
     </tr>
   `);
 
@@ -60,4 +64,8 @@ function addEmployee() {
   else {
     $('#totalMonthlyCost').removeClass('overBudget');
   }
+}
+
+function deleteEmployee() {
+  console.log('deleting an employee');
 }
