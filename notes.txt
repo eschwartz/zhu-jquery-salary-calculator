@@ -16,7 +16,7 @@ TODO:
   [ ] "Store the information" (?)
   [x] "Static" HTML for employee table
   [x] Append info to the DOM
-  [ ] Clear input fields
+  [x] Clear input fields
 [ ] Append monthly costs to DOM
 [ ] If >$20k --> bg color = red
 [ ] Delete button

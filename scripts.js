@@ -41,5 +41,5 @@ function addEmployee() {
   `);
 
   // Clear input fields
-  $('input').val('');
+  $('#employeeForm input').val('');
 }
