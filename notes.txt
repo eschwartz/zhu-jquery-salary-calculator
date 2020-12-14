@@ -14,6 +14,7 @@ TODO:
 [x] Submit button
   [x] Grab the info from the DOM, make and obj
   [ ] "Store the information" (?)
+  [ ] "Static" HTML for employee table
   [ ] Append info to the DOM
   [ ] Clear input fields
 [ ] Append monthly costs to DOM
