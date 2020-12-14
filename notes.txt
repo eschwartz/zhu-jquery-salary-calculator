@@ -21,8 +21,8 @@ TODO:
   [x] Figure out monthly costs
 [x] If >$20k --> bg color = red
   [x] Static CSS
-[ ] Delete button
-  [ ] Remove employee from the DOM
+[x] Delete button
+  [x] Remove employee from the DOM
   **NOTE** does not need to update monthly costs
 
 [ ] Check your work (QA)
