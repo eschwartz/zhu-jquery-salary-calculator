@@ -52,4 +52,12 @@ function addEmployee() {
   // - add up monthly costs for all employees
   totalMonthlyCost += employee.salary / 12;
   $('#totalMonthlyCost').text(totalMonthlyCost);
+
+  // Back BG color red, if >$20k
+  if (totalMonthlyCost > 20000) {
+    $('#totalMonthlyCost').addClass('overBudget');
+  }
+  else {
+    $('#totalMonthlyCost').removeClass('overBudget');
+  }
 }
