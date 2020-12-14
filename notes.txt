@@ -12,6 +12,7 @@ TODO:
   [x] Title
   [x] Salary
 [x] Submit button
+  [ ] Grab the info from the DOM, make and obj
   [ ] "Store the information" (?)
   [ ] Append info to the DOM
   [ ] Clear input fields
