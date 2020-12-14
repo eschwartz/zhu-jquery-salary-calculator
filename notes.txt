@@ -3,6 +3,8 @@ TODO:
 [x] Read the instructions
 
 **Base Mode**
+[ ] Setup a HTML file
+[ ] Source in jquery and scripts.js
 [ ] Input form that collects
   [ ] First Name
   [ ] Last Name
